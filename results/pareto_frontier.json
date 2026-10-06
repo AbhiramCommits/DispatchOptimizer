@@ -1,0 +1,362 @@
+[
+  {
+    "lambda": 0.0,
+    "mean_wait_seconds": 689.3683891495448,
+    "total_deadhead_miles": 165.46975564397567,
+    "match_rate": 0.72,
+    "mean_solve_ms": 0.29735565185546875,
+    "batch_details": [
+      {
+        "total_cost": 610.9332503154717,
+        "mean_wait_seconds": 554.8714374842332,
+        "p90_wait_seconds": 1230.7642302168908,
+        "total_deadhead_miles": 27.716213753295047,
+        "match_rate": 0.75,
+        "unmatched_count": 5,
+        "solve_seconds": 0.0009779930114746094,
+        "objective_value": 610.9269999999999
+      },
+      {
+        "total_cost": 693.1691747908054,
+        "mean_wait_seconds": 965.8458739540271,
+        "p90_wait_seconds": 1321.4723117540304,
+        "total_deadhead_miles": 48.292293697701346,
+        "match_rate": 0.75,
+        "unmatched_count": 5,
+        "solve_seconds": 0.00012230873107910156,
+        "objective_value": 693.161
+      },
+      {
+        "total_cost": 538.627489272319,
+        "mean_wait_seconds": 649.8163559639953,
+        "p90_wait_seconds": 1101.8061903868652,
+        "total_deadhead_miles": 34.65687231807975,
+        "match_rate": 0.8,
+        "unmatched_count": 4,
+        "solve_seconds": 0.00014710426330566406,
+        "objective_value": 538.6220000000001
+      },
+      {
+        "total_cost": 705.057252750263,
+        "mean_wait_seconds": 562.8067111621237,
+        "p90_wait_seconds": 1130.507457502081,
+        "total_deadhead_miles": 26.264313187565772,
+        "match_rate": 0.7,
+        "unmatched_count": 6,
+        "solve_seconds": 0.0001270771026611328,
+        "objective_value": 705.051
+      },
+      {
+        "total_cost": 914.1602507493351,
+        "mean_wait_seconds": 713.5015671833445,
+        "p90_wait_seconds": 1264.1824575535256,
+        "total_deadhead_miles": 28.540062687333783,
+        "match_rate": 0.6,
+        "unmatched_count": 8,
+        "solve_seconds": 0.00011229515075683594,
+        "objective_value": 914.154
+      }
+    ],
+    "pareto_efficient": true
+  },
+  {
+    "lambda": 0.5,
+    "mean_wait_seconds": 689.3683891495448,
+    "total_deadhead_miles": 165.46975564397567,
+    "match_rate": 0.72,
+    "mean_solve_ms": 0.12536048889160156,
+    "batch_details": [
+      {
+        "total_cost": 610.9332503154717,
+        "mean_wait_seconds": 554.8714374842332,
+        "p90_wait_seconds": 1230.7642302168908,
+        "total_deadhead_miles": 27.716213753295047,
+        "match_rate": 0.75,
+        "unmatched_count": 5,
+        "solve_seconds": 0.0001270771026611328,
+        "objective_value": 610.9269999999999
+      },
+      {
+        "total_cost": 693.1691747908054,
+        "mean_wait_seconds": 965.8458739540271,
+        "p90_wait_seconds": 1321.4723117540304,
+        "total_deadhead_miles": 48.292293697701346,
+        "match_rate": 0.75,
+        "unmatched_count": 5,
+        "solve_seconds": 0.00010609626770019531,
+        "objective_value": 693.161
+      },
+      {
+        "total_cost": 538.627489272319,
+        "mean_wait_seconds": 649.8163559639953,
+        "p90_wait_seconds": 1101.8061903868652,
+        "total_deadhead_miles": 34.65687231807975,
+        "match_rate": 0.8,
+        "unmatched_count": 4,
+        "solve_seconds": 0.00015783309936523438,
+        "objective_value": 538.6220000000001
+      },
+      {
+        "total_cost": 705.057252750263,
+        "mean_wait_seconds": 562.8067111621237,
+        "p90_wait_seconds": 1130.507457502081,
+        "total_deadhead_miles": 26.264313187565772,
+        "match_rate": 0.7,
+        "unmatched_count": 6,
+        "solve_seconds": 0.00014495849609375,
+        "objective_value": 705.051
+      },
+      {
+        "total_cost": 914.1602507493351,
+        "mean_wait_seconds": 713.5015671833445,
+        "p90_wait_seconds": 1264.1824575535256,
+        "total_deadhead_miles": 28.540062687333783,
+        "match_rate": 0.6,
+        "unmatched_count": 8,
+        "solve_seconds": 9.083747863769531e-05,
+        "objective_value": 914.154
+      }
+    ],
+    "pareto_efficient": true
+  },
+  {
+    "lambda": 1.0,
+    "mean_wait_seconds": 689.3683891495448,
+    "total_deadhead_miles": 165.46975564397567,
+    "match_rate": 0.72,
+    "mean_solve_ms": 0.11315345764160156,
+    "batch_details": [
+      {
+        "total_cost": 610.9332503154717,
+        "mean_wait_seconds": 554.8714374842332,
+        "p90_wait_seconds": 1230.7642302168908,
+        "total_deadhead_miles": 27.716213753295047,
+        "match_rate": 0.75,
+        "unmatched_count": 5,
+        "solve_seconds": 0.00010585784912109375,
+        "objective_value": 610.9269999999999
+      },
+      {
+        "total_cost": 693.1691747908054,
+        "mean_wait_seconds": 965.8458739540271,
+        "p90_wait_seconds": 1321.4723117540304,
+        "total_deadhead_miles": 48.292293697701346,
+        "match_rate": 0.75,
+        "unmatched_count": 5,
+        "solve_seconds": 9.799003601074219e-05,
+        "objective_value": 693.161
+      },
+      {
+        "total_cost": 538.627489272319,
+        "mean_wait_seconds": 649.8163559639953,
+        "p90_wait_seconds": 1101.8061903868652,
+        "total_deadhead_miles": 34.65687231807975,
+        "match_rate": 0.8,
+        "unmatched_count": 4,
+        "solve_seconds": 0.0001590251922607422,
+        "objective_value": 538.6220000000001
+      },
+      {
+        "total_cost": 705.057252750263,
+        "mean_wait_seconds": 562.8067111621237,
+        "p90_wait_seconds": 1130.507457502081,
+        "total_deadhead_miles": 26.264313187565772,
+        "match_rate": 0.7,
+        "unmatched_count": 6,
+        "solve_seconds": 0.00011706352233886719,
+        "objective_value": 705.051
+      },
+      {
+        "total_cost": 914.1602507493351,
+        "mean_wait_seconds": 713.5015671833445,
+        "p90_wait_seconds": 1264.1824575535256,
+        "total_deadhead_miles": 28.540062687333783,
+        "match_rate": 0.6,
+        "unmatched_count": 8,
+        "solve_seconds": 8.58306884765625e-05,
+        "objective_value": 914.154
+      }
+    ],
+    "pareto_efficient": true
+  },
+  {
+    "lambda": 2.0,
+    "mean_wait_seconds": 689.3683891495448,
+    "total_deadhead_miles": 165.46975564397567,
+    "match_rate": 0.72,
+    "mean_solve_ms": 0.11782646179199219,
+    "batch_details": [
+      {
+        "total_cost": 610.9332503154717,
+        "mean_wait_seconds": 554.8714374842332,
+        "p90_wait_seconds": 1230.7642302168908,
+        "total_deadhead_miles": 27.716213753295047,
+        "match_rate": 0.75,
+        "unmatched_count": 5,
+        "solve_seconds": 9.989738464355469e-05,
+        "objective_value": 610.9269999999999
+      },
+      {
+        "total_cost": 693.1691747908054,
+        "mean_wait_seconds": 965.8458739540271,
+        "p90_wait_seconds": 1321.4723117540304,
+        "total_deadhead_miles": 48.292293697701346,
+        "match_rate": 0.75,
+        "unmatched_count": 5,
+        "solve_seconds": 0.0001220703125,
+        "objective_value": 693.161
+      },
+      {
+        "total_cost": 538.627489272319,
+        "mean_wait_seconds": 649.8163559639953,
+        "p90_wait_seconds": 1101.8061903868652,
+        "total_deadhead_miles": 34.65687231807975,
+        "match_rate": 0.8,
+        "unmatched_count": 4,
+        "solve_seconds": 0.00013518333435058594,
+        "objective_value": 538.6220000000001
+      },
+      {
+        "total_cost": 705.057252750263,
+        "mean_wait_seconds": 562.8067111621237,
+        "p90_wait_seconds": 1130.507457502081,
+        "total_deadhead_miles": 26.264313187565772,
+        "match_rate": 0.7,
+        "unmatched_count": 6,
+        "solve_seconds": 0.0001361370086669922,
+        "objective_value": 705.051
+      },
+      {
+        "total_cost": 914.1602507493351,
+        "mean_wait_seconds": 713.5015671833445,
+        "p90_wait_seconds": 1264.1824575535256,
+        "total_deadhead_miles": 28.540062687333783,
+        "match_rate": 0.6,
+        "unmatched_count": 8,
+        "solve_seconds": 9.584426879882812e-05,
+        "objective_value": 914.154
+      }
+    ],
+    "pareto_efficient": true
+  },
+  {
+    "lambda": 5.0,
+    "mean_wait_seconds": 689.3683891495448,
+    "total_deadhead_miles": 165.46975564397567,
+    "match_rate": 0.72,
+    "mean_solve_ms": 0.11162757873535156,
+    "batch_details": [
+      {
+        "total_cost": 610.9332503154717,
+        "mean_wait_seconds": 554.8714374842332,
+        "p90_wait_seconds": 1230.7642302168908,
+        "total_deadhead_miles": 27.716213753295047,
+        "match_rate": 0.75,
+        "unmatched_count": 5,
+        "solve_seconds": 9.202957153320312e-05,
+        "objective_value": 610.9269999999999
+      },
+      {
+        "total_cost": 693.1691747908054,
+        "mean_wait_seconds": 965.8458739540271,
+        "p90_wait_seconds": 1321.4723117540304,
+        "total_deadhead_miles": 48.292293697701346,
+        "match_rate": 0.75,
+        "unmatched_count": 5,
+        "solve_seconds": 0.00010323524475097656,
+        "objective_value": 693.161
+      },
+      {
+        "total_cost": 538.627489272319,
+        "mean_wait_seconds": 649.8163559639953,
+        "p90_wait_seconds": 1101.8061903868652,
+        "total_deadhead_miles": 34.65687231807975,
+        "match_rate": 0.8,
+        "unmatched_count": 4,
+        "solve_seconds": 0.0001308917999267578,
+        "objective_value": 538.6220000000001
+      },
+      {
+        "total_cost": 705.057252750263,
+        "mean_wait_seconds": 562.8067111621237,
+        "p90_wait_seconds": 1130.507457502081,
+        "total_deadhead_miles": 26.264313187565772,
+        "match_rate": 0.7,
+        "unmatched_count": 6,
+        "solve_seconds": 0.00011396408081054688,
+        "objective_value": 705.051
+      },
+      {
+        "total_cost": 914.1602507493351,
+        "mean_wait_seconds": 713.5015671833445,
+        "p90_wait_seconds": 1264.1824575535256,
+        "total_deadhead_miles": 28.540062687333783,
+        "match_rate": 0.6,
+        "unmatched_count": 8,
+        "solve_seconds": 0.00011801719665527344,
+        "objective_value": 914.154
+      }
+    ],
+    "pareto_efficient": true
+  },
+  {
+    "lambda": 10.0,
+    "mean_wait_seconds": 689.3683891495448,
+    "total_deadhead_miles": 165.46975564397567,
+    "match_rate": 0.72,
+    "mean_solve_ms": 0.1399993896484375,
+    "batch_details": [
+      {
+        "total_cost": 610.9332503154717,
+        "mean_wait_seconds": 554.8714374842332,
+        "p90_wait_seconds": 1230.7642302168908,
+        "total_deadhead_miles": 27.716213753295047,
+        "match_rate": 0.75,
+        "unmatched_count": 5,
+        "solve_seconds": 0.00012683868408203125,
+        "objective_value": 610.9269999999999
+      },
+      {
+        "total_cost": 693.1691747908054,
+        "mean_wait_seconds": 965.8458739540271,
+        "p90_wait_seconds": 1321.4723117540304,
+        "total_deadhead_miles": 48.292293697701346,
+        "match_rate": 0.75,
+        "unmatched_count": 5,
+        "solve_seconds": 0.00012803077697753906,
+        "objective_value": 693.161
+      },
+      {
+        "total_cost": 538.627489272319,
+        "mean_wait_seconds": 649.8163559639953,
+        "p90_wait_seconds": 1101.8061903868652,
+        "total_deadhead_miles": 34.65687231807975,
+        "match_rate": 0.8,
+        "unmatched_count": 4,
+        "solve_seconds": 0.00016117095947265625,
+        "objective_value": 538.6220000000001
+      },
+      {
+        "total_cost": 705.057252750263,
+        "mean_wait_seconds": 562.8067111621237,
+        "p90_wait_seconds": 1130.507457502081,
+        "total_deadhead_miles": 26.264313187565772,
+        "match_rate": 0.7,
+        "unmatched_count": 6,
+        "solve_seconds": 0.0001437664031982422,
+        "objective_value": 705.051
+      },
+      {
+        "total_cost": 914.1602507493351,
+        "mean_wait_seconds": 713.5015671833445,
+        "p90_wait_seconds": 1264.1824575535256,
+        "total_deadhead_miles": 28.540062687333783,
+        "match_rate": 0.6,
+        "unmatched_count": 8,
+        "solve_seconds": 0.00014019012451171875,
+        "objective_value": 914.154
+      }
+    ],
+    "pareto_efficient": true
+  }
+]
