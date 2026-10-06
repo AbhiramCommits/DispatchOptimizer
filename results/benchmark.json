@@ -1,0 +1,46 @@
+{
+  "scaling_exponent_fit_slope": 0.0,
+  "scaling_exponent_fit_intercept": -0.0,
+  "benchmark_results": [
+    {
+      "batch_window_seconds": 10,
+      "p50_solve_ms": 0.2067089080810547,
+      "p95_solve_ms": 0.22554397583007812,
+      "mean_wait_seconds": 699.6679167065672,
+      "total_deadhead_miles": 33.220639099288185,
+      "match_rate": 0.7
+    },
+    {
+      "batch_window_seconds": 30,
+      "p50_solve_ms": 0.2002716064453125,
+      "p95_solve_ms": 0.22339820861816406,
+      "mean_wait_seconds": 699.6679167065672,
+      "total_deadhead_miles": 33.220639099288185,
+      "match_rate": 0.7
+    },
+    {
+      "batch_window_seconds": 60,
+      "p50_solve_ms": 0.20384788513183594,
+      "p95_solve_ms": 0.22211074829101562,
+      "mean_wait_seconds": 699.6679167065672,
+      "total_deadhead_miles": 33.220639099288185,
+      "match_rate": 0.7
+    },
+    {
+      "batch_window_seconds": 120,
+      "p50_solve_ms": 0.20575523376464844,
+      "p95_solve_ms": 0.2517223358154297,
+      "mean_wait_seconds": 699.6679167065672,
+      "total_deadhead_miles": 33.220639099288185,
+      "match_rate": 0.7
+    },
+    {
+      "batch_window_seconds": 300,
+      "p50_solve_ms": 0.2040863037109375,
+      "p95_solve_ms": 3.438234329223632,
+      "mean_wait_seconds": 703.1303764540818,
+      "total_deadhead_miles": 55.456212755782964,
+      "match_rate": 0.6687603305785125
+    }
+  ]
+}

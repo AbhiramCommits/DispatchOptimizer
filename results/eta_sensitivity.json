@@ -1,0 +1,25 @@
+{
+  "regret_slope_seconds_per_sigma": 46.004838960299196,
+  "sensitivity_results": [
+    {
+      "sigma": 0.0,
+      "mean_wait_seconds": 689.4588625151573
+    },
+    {
+      "sigma": 0.1,
+      "mean_wait_seconds": 691.2989537467982
+    },
+    {
+      "sigma": 0.2,
+      "mean_wait_seconds": 696.4878198791105
+    },
+    {
+      "sigma": 0.4,
+      "mean_wait_seconds": 718.8648340453831
+    },
+    {
+      "sigma": 0.8,
+      "mean_wait_seconds": 722.5233673427989
+    }
+  ]
+}
