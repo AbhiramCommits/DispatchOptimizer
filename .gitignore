@@ -1,0 +1,11 @@
+data/*.parquet
+data/*.csv
+results/*
+figures/*
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+env/
+venv/
