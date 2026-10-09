@@ -44,7 +44,6 @@ def extract_features(df: pd.DataFrame):
 
     ts = pd.to_datetime(df['request_ts'])
     hour = ts.dt.hour.values
-    dow = ts.dt.dayofweek.values
 
     hour_sin = np.sin(2 * np.pi * hour / 24.0)
     hour_cos = np.cos(2 * np.pi * hour / 24.0)
@@ -94,7 +93,6 @@ def train_eta_model(df: pd.DataFrame, cfg: ExperimentConfig):
     best_weights = None
 
     batch_size = 256
-    n_batches = len(X_tr_dense) // batch_size
 
     for epoch in range(15):
         model.train()

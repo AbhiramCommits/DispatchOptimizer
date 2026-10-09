@@ -70,7 +70,7 @@ def load_trips(cfg: ExperimentConfig) -> pd.DataFrame:
         con = duckdb.connect(database=':memory:')
         # Check columns or query safely
         query = f"""
-            SELECT 
+            SELECT
                 tpep_pickup_datetime AS request_ts,
                 CAST(PULocationID AS INTEGER) AS pu_zone,
                 CAST(DOLocationID AS INTEGER) AS do_zone,
@@ -78,7 +78,7 @@ def load_trips(cfg: ExperimentConfig) -> pd.DataFrame:
                 EXTRACT(EPOCH FROM (tpep_dropoff_datetime - tpep_pickup_datetime)) AS trip_seconds,
                 COALESCE(passenger_count, 1) AS passenger_count
             FROM read_parquet('{parquet_path}')
-            WHERE PULocationID IS NOT NULL 
+            WHERE PULocationID IS NOT NULL
               AND DOLocationID IS NOT NULL
               AND trip_distance > 0 AND trip_distance <= 60
               AND fare_amount > 0
